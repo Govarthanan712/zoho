@@ -1,0 +1,111 @@
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+
+p ,label{ color: #f8f8f8; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+
+
+a { color: #c8c8c8; text-decoration: underline; }
+
+
+a:hover { color: #1c1c1c; text-decoration: underline; }
+
+body{
+	margin: 0;
+	background: #D0D3D4;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	justify-content: space-around;
+}
+td{
+	width: 200px;
+}
+h1{
+	margin-bottom: 0px;
+}
+header,form{
+	margin-top: 0;
+	background: #979A9A;
+}
+form{
+
+
+	min-width: 100px;
+	min-height: 400px;
+	border-radius: 0px 0 0 0;
+
+}
+
+
+.form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 30%;
+	
+
+	
+
+}
+#black{
+	width: 100px;
+	height: 100px;
+	
+	background: #323743;
+
+}
+#white{
+	width: 100px;
+	height: 100px;
+	
+	background: #F6F6F7;
+	
+}
+#container{
+	width: fit-content;
+	border:3px solid #E89B19 ;
+
+}
+
+input{
+	margin-top: 10px;
+	width: 100%;
+	padding: 12px 20px;
+	
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color:#F6F6F7 ;
+	box-sizing: border-box;
+}
+
+
+
+
+         .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+           margin-top: 60px;
+          }
+
+          .btn-grad:hover {
+            background-position:right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
